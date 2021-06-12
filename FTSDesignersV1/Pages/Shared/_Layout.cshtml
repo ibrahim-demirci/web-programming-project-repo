@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #5f85db; box-shadow: 0px 4px 8px rgba(21,0,42,255);">
+            <!--NavBar-->
+            <div class="container c_navbar">
+                <a class="navbar-brand" href="/Index"><img class=" img-responsive" src="assets/logo.png" alt="Alternate Text" /></a>
+                <button class="navbar-toggler rounded-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <!--Navbar ogeleri-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Index">Nasıl Çalışır?<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Index#dosya_yukleme">Fotoğraf Yükle</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Signup">Giriş</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="mainbody">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer id="footer">
+
+        <!--Ogeleri ortalamak icin center class-->
+        <!--Footerda yer alan sosyal medya linkleri-->
+        <div class="social_footer">
+            <!--<li><p >FTS © 2021</p></li>-->
+            <a target="_blank" href="http://facebook.com"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a target="_blank" href="http://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
+            <a target="_blank" href="http://linkedin.com"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a target="_blank" href="http://instagram.com"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+
+        <!--Footer en alt satir-->
+        <div class="copyright">FTS Designers Inc. © 2021 </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/style.css" />
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{9B97694B-8F28-4F78-A7D5-378669461651}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FTSDesignersV1/Pages/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="FTSDesignersV1/Pages/Index.cshtml" Line="236" Column="8" />
+      <File FileName="FTSDesignersV1/Pages/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="FTSDesignersV1/Pages/Shared/_Layout.cshtml" Line="20" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FTSDesignersV1" expanded="True">
+            <Node name="FTSDesignersV1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FTSDesignersV1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

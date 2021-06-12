@@ -1,0 +1,47 @@
+﻿@page
+@model FTSDesignersV1.Pages.NeolmusModel
+@{
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+@*<form class="mt-5" method="post">
+    <div class="d-flex justify-content-center">
+        Gün
+    </div>
+    <div class="d-flex justify-content-center">
+        <select class="m-2" id="day" asp-for="Gun" name="day"></select>
+        <select class="m-2" id="month" asp-for="Ay" name="month"></select>
+        <button type="submit" class="btn btn-primary mt-2">Ara</button>
+    </div>
+
+    <h2 class="d-flex justify-content-center"> @Model.Text</h2>
+</form>*@
+
+
+<form class="mt-5 justify-content-center" method="post">
+    <div class="form-group row">
+        <label for="staticEmail" class="col-sm-2 m-2 col-form-label">Gun</label>
+        <div class="col-sm-10">
+            <select class="m-2" id="day" asp-for="Gun" name="day"></select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 m-2 col-form-label">Ay</label>
+        <div class="col-sm-10">
+            <select class="m-2" id="month" asp-for="Ay" name="month"></select>
+        </div>
+    </div>
+    <div class="d-flex">
+        <button type="submit" class="btn btn-primary mt-2">Ara</button>
+    </div>
+    
+    <h2 class="d-flex justify-content-center"> @Model.Text</h2>
+</form>
+
+<script src="~/js/neolmus.js"></script>

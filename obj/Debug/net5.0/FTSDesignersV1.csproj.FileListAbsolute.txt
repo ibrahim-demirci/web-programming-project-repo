@@ -1,0 +1,5 @@
+C:\Users\Yasin\Desktop\FTSDesignersV1\obj\Debug\net5.0\FTSDesignersV1.csprojAssemblyReference.cache
+C:\Users\Yasin\Desktop\FTSDesignersV1\obj\Debug\net5.0\FTSDesignersV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasin\Desktop\FTSDesignersV1\obj\Debug\net5.0\FTSDesignersV1.AssemblyInfoInputs.cache
+C:\Users\Yasin\Desktop\FTSDesignersV1\obj\Debug\net5.0\FTSDesignersV1.AssemblyInfo.cs
+C:\Users\Yasin\Desktop\FTSDesignersV1\obj\Debug\net5.0\FTSDesignersV1.csproj.CoreCompileInputs.cache
